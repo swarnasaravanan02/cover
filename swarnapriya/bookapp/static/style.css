@@ -1,0 +1,70 @@
+.bookpage{
+    width:600px;
+    height:700px;
+    color:rgb(234, 255, 0);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+    background-image: url(Screenshot\ \(52\)\ -\ Copy.png);
+    background-size: cover;
+    
+    
+}
+
+.insight{
+    color: rgb(207, 79, 79);
+    position:relative;
+}
+.hrstyle{
+    width:30%;
+}
+.author{
+    display: inline;
+    position: relative;
+    color: yellowgreen;
+    font-family:Georgia;
+    font-size: medium;
+    top:30%;
+    
+}
+.booktitle{
+    font-family: 'courier New',Courier, monospace;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    top: 33px;
+}
+
+.id{
+    width:500px;
+    position: relative;
+    top: 175px;
+}
+.pub{
+    color:brown;
+    font-size: medium;
+    position: relative;
+    top:5%;
+}
+.ed{
+    color: aqua;
+    font-size: medium;
+    position: relative;
+    left: 85%;
+}
+.subtitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    position: relative;
+    left: 15px;
+    top:40px
+}
+.mypic{
+     position: relative;
+     top: 150px;
+     left: 500px;
+     width: 200px;
+     height: 200px;
+     background-size: contain;
+}
