@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:18.10.2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -34,118 +34,142 @@ Publish the website in the LocalHost.
 ```
 cover.html
 <html>
-<head>
-<title>Book Cover Page</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="bookpage">
-	<div class="insight">
-		SEC INSIGHT
-    </div>
-    <div class="hrstyle">
-	<hr style="color: antiquewhite;">
-    </div>
-    <div class="booktitle">
-	<h1>FUTURE BY INTELLIGENCE</h1>
-    </div>
-    <div class="subtitle">
-         Fom chatbox to self-driving systems,AI has advanced rapidly.The growth is driven by data,innovation and global demand across all major fields
-    </div>
-    <div class="mypic">
-        <img src ="IAM.jpg" width="110" height="100">
-    </div>
-    <div class="id">
-	<hr style="color:purple;">
-    </div>
-    <div class="author">
-	<p><b>S SWARNA PRIYA</b></p>
-    </div>
-    <div class="ed">
-	    SEC
-    </div>
-    <div class="pub">
-	    RARE Edition
-    </div>
-    </div>
-</body>
+    <head>
+        <title>Book Cover Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="bookcover">
+        <div class="margin">
+        <div class="insight">
+            SEC Insights
+        </div>
+        <div class="hrstyle">
+            <hr style="color: orange">
+        </div>
+        <div class="title">
+            <h1>FUTURE BY INTELLIGENCE</h1></div>
+        <div class="subtitle">
+            From chatbox to  self-driving systems,AI has advanced rapidly.The growth is driven by data ,innovation and global demand across all major fields.
+        </div>
+        <div class="mypic">
+            <img src="IAM.jpg" width="100" height="120">
+        </div>
+        <div class="id">
+            <hr style="color: white">
+        </div>
+        <div class="author">
+            <p><b>Swarna Priya S</b></p>
+        </div>
+        <div class="publisher">
+            SEC
+        </div>
+        <div class="edition">
+            Rare Edition
+        </div>
+        </div>
+        </div>
+    </body>
 </html>
 
 style.css
-bookpage{
-    width:600px;
-    height:700px;
-    color:rgb(234, 255, 0);
+bookcover{
+    width: 400px;
+    height: 600px;
+    color:black;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
-    background-image: url(Screenshot\ \(52\)\ -\ Copy.png);
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(bg.png);
     background-size: cover;
-    
-    
 }
 
+.margin{
+    width: 400px;
+    height: 600px;
+	border: orange;
+	background-size: cover;
+}
+        
 .insight{
-    color: rgb(207, 79, 79);
-    position:relative;
+    color: grey;
+    left: 5px;
+    top: 8px;
+    position: relative;
 }
+        
 .hrstyle{
-    width:30%;
+    width: 95px;
+	height: 2px;
+    color: yellow;
 }
+
+.title{
+    color: grey;
+    font-family:veranda;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    top: 25px;      
+}
+
+.subtitle{
+    color: yellow;
+    font-family: Tahoma;
+    font-size: medium;
+    position: relative;
+    left: 13px;
+    top: 20px;
+}
+
+.mypic{
+    position: relative;
+    top: 110px;
+    left: 290px;
+    width: 75px;
+    height: 80px;
+    background-size:contain;
+        }
+
+.id{
+    width:400px;
+    height: 2px;
+    position: relative;
+    top:150px;
+}
+
 .author{
     display: inline;
     position: relative;
-    color: yellowgreen;
-    font-family:Georgia;
+    color: white;
+    top:135px; 
+    left: 8px;           
+    font-family: Times New Roman;
     font-size: medium;
-    top:30%;
-    
 }
-.booktitle{
-    font-family: 'courier New',Courier, monospace;
-    font-size: larger;
-    text-align: center;
+        
+.publisher{
+    color: white;
+    font-size: medium;
     position: relative;
-    top: 33px;
+    font-family:Times New Roman;
+    top:100px;
+    left:360px;
 }
 
-.id{
-    width:500px;
-    position: relative;
-    top: 175px;
-}
-.pub{
-    color:brown;
+.edition{
+    color: white;
     font-size: medium;
+    font-family:Times New Roman;
     position: relative;
-    top:5%;
-}
-.ed{
-    color: aqua;
-    font-size: medium;
-    position: relative;
-    left: 85%;
-}
-.subtitle{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    position: relative;
-    left: 15px;
-    top:40px
-}
-.mypic{
-     position: relative;
-     top: 150px;
-     left: 500px;
-     width: 200px;
-     height: 200px;
-     background-size: contain;
+    left: 8px;
+    top: 60px; 
 }
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (55).png>)
 
+![alt text](<Screenshot (89).png>)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
